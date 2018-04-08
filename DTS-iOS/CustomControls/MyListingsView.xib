@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Franklin Gothic Demi Regular.ttf">
+            <string>FranklinGothic-Demi</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="bfC-AW-E1u" customClass="MyListingsView" customModule="DTS_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="34"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view tag="20" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CjW-1T-AFq" userLabel="contentView">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="34"/>
+                    <subviews>
+                        <view tag="11" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KT3-Bk-pxp">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="34"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" tag="32" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4 Days/$340" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lNP-Ic-bXI">
+                                    <rect key="frame" x="9" y="10" width="126" height="15"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="15" id="R0i-bR-lSN"/>
+                                        <constraint firstAttribute="width" constant="126" id="ZqP-NR-M3s"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="FranklinGothic-Demi" family="Franklin Gothic Demi" pointSize="12"/>
+                                    <color key="textColor" red="0.0" green="0.43921568630000002" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view tag="33" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bV9-fF-GOL">
+                                    <rect key="frame" x="274" y="0.0" width="140" height="34"/>
+                                    <subviews>
+                                        <button opaque="NO" tag="33" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gAD-4h-Lok">
+                                            <rect key="frame" x="21" y="8" width="44" height="18"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" red="0.0" green="0.68627450980000004" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="fontDescription" name="FranklinGothic-Demi" family="Franklin Gothic Demi" pointSize="9"/>
+                                            <state key="normal" title="Accept"/>
+                                        </button>
+                                        <button opaque="NO" tag="31" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j0a-Et-S0i">
+                                            <rect key="frame" x="77" y="8" width="44" height="18"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" red="0.99607843139999996" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="fontDescription" name="FranklinGothic-Demi" family="Franklin Gothic Demi" pointSize="9"/>
+                                            <state key="normal" title="Reject"/>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="34" id="JHN-0b-rFs"/>
+                                        <constraint firstAttribute="width" constant="140" id="K0u-98-enL"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1wr-Wg-8wl">
+                                    <rect key="frame" x="0.0" y="33" width="414" height="1"/>
+                                    <color key="backgroundColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="4QJ-Gy-aI8"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="bV9-fF-GOL" firstAttribute="top" secondItem="KT3-Bk-pxp" secondAttribute="top" id="4ZZ-g8-SW5"/>
+                                <constraint firstAttribute="bottom" secondItem="1wr-Wg-8wl" secondAttribute="bottom" id="NsW-gT-RB0"/>
+                                <constraint firstItem="1wr-Wg-8wl" firstAttribute="leading" secondItem="KT3-Bk-pxp" secondAttribute="leading" id="Px9-98-5xO"/>
+                                <constraint firstItem="lNP-Ic-bXI" firstAttribute="top" secondItem="KT3-Bk-pxp" secondAttribute="top" constant="10" id="Xt3-SZ-eTV"/>
+                                <constraint firstAttribute="trailing" secondItem="1wr-Wg-8wl" secondAttribute="trailing" id="cZ8-3Y-tEp"/>
+                                <constraint firstItem="lNP-Ic-bXI" firstAttribute="leading" secondItem="KT3-Bk-pxp" secondAttribute="leading" constant="9" id="fVe-pB-z2D"/>
+                                <constraint firstAttribute="trailing" secondItem="bV9-fF-GOL" secondAttribute="trailing" id="z7H-gR-IPX"/>
+                            </constraints>
+                        </view>
+                        <view tag="10" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tsr-0r-egO">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="34"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" tag="20" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9Cb-T7-46f">
+                                    <rect key="frame" x="9" y="4" width="36" height="26"/>
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="36" id="25E-Ri-vT4"/>
+                                        <constraint firstAttribute="height" constant="26" id="aI0-zk-Nts"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" tag="21" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stunning Room for Rent" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lpO-ah-AkZ">
+                                    <rect key="frame" x="90" y="5" width="126" height="13"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="13" id="Y1G-fO-rRz"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="FranklinGothic-Demi" family="Franklin Gothic Demi" pointSize="12"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" tag="22" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="509 S Spring Lane, New York 90013" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jJq-MI-CtN">
+                                    <rect key="frame" x="90" y="16" width="174" height="13"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="13" id="nVF-Tb-nOv"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="FranklinGothic-Demi" family="Franklin Gothic Demi" pointSize="11"/>
+                                    <color key="textColor" red="0.56470588235294117" green="0.56470588235294117" blue="0.56470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view tag="23" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XFU-6G-cpC">
+                                    <rect key="frame" x="350" y="0.0" width="64" height="34"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iVP-Nw-DnZ">
+                                            <rect key="frame" x="0.0" y="8" width="44" height="18"/>
+                                            <color key="backgroundColor" red="0.99607843139999996" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="18" id="7gY-rM-Ou7"/>
+                                                <constraint firstAttribute="width" constant="44" id="czb-JZ-mHh"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="FranklinGothic-Demi" family="Franklin Gothic Demi" pointSize="9"/>
+                                            <state key="normal" title="Suspend"/>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="iVP-Nw-DnZ" firstAttribute="leading" secondItem="XFU-6G-cpC" secondAttribute="leading" id="DVX-No-Jbl"/>
+                                        <constraint firstAttribute="height" constant="34" id="Jwu-Zz-Oz2"/>
+                                        <constraint firstItem="iVP-Nw-DnZ" firstAttribute="top" secondItem="XFU-6G-cpC" secondAttribute="top" constant="8" id="Rvz-Ud-LaY"/>
+                                        <constraint firstAttribute="width" constant="64" id="vCF-yB-WwP"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OY7-UX-dCc">
+                                    <rect key="frame" x="0.0" y="33" width="414" height="1"/>
+                                    <color key="backgroundColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="da1-H2-28E"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="jJq-MI-CtN" firstAttribute="top" secondItem="tsr-0r-egO" secondAttribute="top" constant="16" id="7WK-FD-4bH"/>
+                                <constraint firstAttribute="bottom" secondItem="OY7-UX-dCc" secondAttribute="bottom" id="DKu-ss-fa3"/>
+                                <constraint firstItem="lpO-ah-AkZ" firstAttribute="leading" secondItem="9Cb-T7-46f" secondAttribute="trailing" constant="45" id="EUq-Lo-E39"/>
+                                <constraint firstAttribute="trailing" secondItem="XFU-6G-cpC" secondAttribute="trailing" id="GUR-I2-xMK"/>
+                                <constraint firstAttribute="trailing" secondItem="OY7-UX-dCc" secondAttribute="trailing" id="MAt-bA-pSR"/>
+                                <constraint firstItem="9Cb-T7-46f" firstAttribute="leading" secondItem="tsr-0r-egO" secondAttribute="leading" constant="9" id="UUv-7s-cpY"/>
+                                <constraint firstItem="9Cb-T7-46f" firstAttribute="top" secondItem="tsr-0r-egO" secondAttribute="top" constant="4" id="aRG-FG-ws9"/>
+                                <constraint firstItem="jJq-MI-CtN" firstAttribute="leading" secondItem="9Cb-T7-46f" secondAttribute="trailing" constant="45" id="eEF-ZS-H4Q"/>
+                                <constraint firstItem="XFU-6G-cpC" firstAttribute="top" secondItem="tsr-0r-egO" secondAttribute="top" id="mOl-1h-14I"/>
+                                <constraint firstItem="OY7-UX-dCc" firstAttribute="leading" secondItem="tsr-0r-egO" secondAttribute="leading" id="nfU-mz-ryR"/>
+                                <constraint firstItem="lpO-ah-AkZ" firstAttribute="top" secondItem="tsr-0r-egO" secondAttribute="top" constant="5" id="nyC-xW-19n"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="KT3-Bk-pxp" firstAttribute="leading" secondItem="CjW-1T-AFq" secondAttribute="leading" id="IeU-nJ-2sc"/>
+                        <constraint firstAttribute="bottom" secondItem="KT3-Bk-pxp" secondAttribute="bottom" id="PBb-oy-TiM"/>
+                        <constraint firstAttribute="trailing" secondItem="KT3-Bk-pxp" secondAttribute="trailing" id="Qpm-bE-WhR"/>
+                        <constraint firstItem="KT3-Bk-pxp" firstAttribute="top" secondItem="CjW-1T-AFq" secondAttribute="top" id="V6q-93-dAG"/>
+                        <constraint firstItem="tsr-0r-egO" firstAttribute="leading" secondItem="CjW-1T-AFq" secondAttribute="leading" id="cIb-wi-Ucg"/>
+                        <constraint firstItem="tsr-0r-egO" firstAttribute="top" secondItem="CjW-1T-AFq" secondAttribute="top" id="gmw-IY-Ou7"/>
+                        <constraint firstAttribute="trailing" secondItem="tsr-0r-egO" secondAttribute="trailing" id="n3w-SV-d3V"/>
+                        <constraint firstAttribute="bottom" secondItem="tsr-0r-egO" secondAttribute="bottom" id="weN-I2-OW2"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="CjW-1T-AFq" firstAttribute="top" secondItem="bfC-AW-E1u" secondAttribute="top" id="9dF-7P-IYb"/>
+                <constraint firstAttribute="trailing" secondItem="CjW-1T-AFq" secondAttribute="trailing" id="Ujb-t2-qe6"/>
+                <constraint firstItem="CjW-1T-AFq" firstAttribute="leading" secondItem="bfC-AW-E1u" secondAttribute="leading" id="d2i-ED-Kbq"/>
+                <constraint firstAttribute="bottom" secondItem="CjW-1T-AFq" secondAttribute="bottom" id="nAe-aN-6vi"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="p67-nk-Uie"/>
+            <point key="canvasLocation" x="35" y="61"/>
+        </view>
+    </objects>
+</document>
